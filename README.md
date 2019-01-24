@@ -1,8 +1,8 @@
-# Parity Görli testnet DAppnode package
+# Parity Görli testnet DAppNode package
 
 [![DAppNodeStore Available](https://img.shields.io/badge/DAppNodeStore-Available-brightgreen.svg)](http://my.admin.dnp.dappnode.eth/#/installer/goerli-parity.dnp.dappnode.eth)
 
-Implements the install instructions for the Görli testnet as a DAppNode package
+Implements the install instructions for the Görli testnet as a DAppNode package (clique-v3)
 
 - https://github.com/goerli/testnet
 - https://dappnode.io/
