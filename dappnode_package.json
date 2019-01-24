@@ -1,0 +1,47 @@
+{
+  "name": "goerli-parity.dnp.dappnode.eth",
+  "version": "0.0.1",
+  "description": "Parity version for Görli Testnet (clique-v3). A cross-client proof-of-authority ethereum testnet. This is work in progress (experimental Clique engine) https://github.com/goerli/parity-goerli",
+  "avatar": "/ipfs/QmSCeNrmM6tCYkhjc4CiPvwQSp6JnWujTYH8qkNSFr75xj",
+  "type": "library",
+  "image": {
+    "path": "goerli-parity.dnp.dappnode.eth_0.0.1.tar.xz",
+    "hash": "/ipfs/QmV1GNKbvZNj8jeX4hKKQJ4kfojCngBMMAKvFaxeCz29GW",
+    "size": 14162019,
+    "restart": "always",
+    "volumes": [
+      "goerli:/goerli"
+    ],
+    "environment": [
+      "EXTRA_OPTS"
+    ],
+    "ports": [
+      "54535:30303",
+      "54535:30303/udp",
+      "54534:30304/udp"
+    ],
+    "keywords": [
+      "ethereum",
+      "testnet",
+      "parity",
+      "goerli",
+      "poa"
+    ]
+  },
+  "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
+  "contributors": [
+    "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+    "Stefaan Ponnet (https://github.com/sponnet)"
+  ],
+  "homepage": {
+    "homepage": "https://github.com/dappnode/DAppNodePackage-goerli-parity#readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dappnode/DAppNodePackage-goerli-parity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dappnode/DAppNodePackage-goerli-parity/issues"
+  },
+  "license": "GPL-3.0"
+}
