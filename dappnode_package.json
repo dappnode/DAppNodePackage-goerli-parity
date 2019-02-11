@@ -4,6 +4,7 @@
   "description": "Parity version for Görli Testnet (clique-v3). A cross-client proof-of-authority ethereum testnet. This is work in progress (experimental Clique engine) https://github.com/goerli/parity-goerli",
   "avatar": "/ipfs/QmSCeNrmM6tCYkhjc4CiPvwQSp6JnWujTYH8qkNSFr75xj",
   "type": "library",
+  "chain": "ethereum",
   "image": {
     "path": "goerli-parity.dnp.dappnode.eth_0.0.1.tar.xz",
     "hash": "/ipfs/QmV1GNKbvZNj8jeX4hKKQJ4kfojCngBMMAKvFaxeCz29GW",
